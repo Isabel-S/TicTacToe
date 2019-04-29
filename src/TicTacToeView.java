@@ -52,31 +52,6 @@ public class TicTacToeView {
             computer();
         }
         // doClick returns true for X, false for O
-
-
-        /*if (doClick >= 0) {
-            String player;
-            if (doClick > 0) {
-                player = "X";
-            } else {
-                player = "O";
-            }
-            cell[cellNumber].getLabel().setText(player);
-            boolean win = model.checkForWin();
-            if (win) {
-                JOptionPane.showMessageDialog(null, "Player " + player + " wins!");
-                clear();
-            } else if (model.turn >= 9) {
-                JOptionPane.showMessageDialog(null, "You both lose!!");
-                clear();
-            } else {
-                computerTurn();
-            }
-        }*/
-        /*System.out.println("Tile clicked: " + tileNumber);
-        System.out.println("first tile clicked: " + firstTileClicked);
-        if (matchedTiles[tileNumber]) {
-            return; // Don't do anything if they've picked a tile that's already matched.*/
     }
 
     void computer() {
